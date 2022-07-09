@@ -13,15 +13,15 @@ Total RAM: 11.90 GB
 instance of Win32_OperatingSystem
 {
         BootDevice = "\\Device\\HarddiskVolume1";
-        BuildNumber = "19043";
+        BuildNumber = "19047";
         BuildType = "Multiprocessor Free";
         Caption = "Microsoft Windows 10 Home Single Language";
-        CodeSet = "1252";
+        CodeSet = "1257";
         CountryCode = "1";
         CreationClassName = "Win32_OperatingSystem";
         CSCreationClassName = "Win32_ComputerSystem";
         CSName = "JAYAMBE";
-        CurrentTimeZone = 330;
+        CurrentTimeZone = 331;
         DataExecutionPrevention_32BitApplications = TRUE;
         DataExecutionPrevention_Available = TRUE;
         DataExecutionPrevention_Drivers = TRUE;
@@ -29,11 +29,11 @@ instance of Win32_OperatingSystem
         Debug = FALSE;
         Description = "";
         Distributed = FALSE;
-        EncryptionLevel = 256;
+        EncryptionLevel = 259;
         ForegroundApplicationBoost = 2;
-        FreePhysicalMemory = "3847696";
-        FreeSpaceInPagingFiles = "3780640";
-        FreeVirtualMemory = "3710712";
+        FreePhysicalMemory = "3847697";
+        FreeSpaceInPagingFiles = "3780649";
+        FreeVirtualMemory = "3710717";
         InstallDate = "20201207054635.000000+330";
         LastBootUpTime = "20220619175439.534937+330";
         LocalDateTime = "20220709151253.864000+330";
@@ -53,7 +53,7 @@ instance of Win32_OperatingSystem
         PortableOperatingSystem = FALSE;
         Primary = TRUE;
         ProductType = 1;
-        RegisteredUser = "smitrpatel19@gmail.com";
+        RegisteredUser = "smitrpatel@gmail.com";
         SerialNumber = "00327-35823-27277-AAOEM";
         ServicePackMajorVersion = 0;
         ServicePackMinorVersion = 0;
@@ -63,8 +63,8 @@ instance of Win32_OperatingSystem
         SystemDevice = "\\Device\\HarddiskVolume3";
         SystemDirectory = "C:\\WINDOWS\\system32";
         SystemDrive = "C:";
-        TotalVirtualMemorySize = "16553800";
-        TotalVisibleMemorySize = "12477576";
+        TotalVirtualMemorySize = "165538007";
+        TotalVisibleMemorySize = "124775767";
         Version = "10.0.19043";
         WindowsDirectory = "C:\\WINDOWS";
 };
