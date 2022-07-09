@@ -1,0 +1,151 @@
+run$ python -u "e:\code\hardware info tool in python.py"
+
+
+Achitecture: ('64bit', 'WindowsPE')
+Network Name: JAYAMBE
+Operating System: Windows-10-10.0.19043-SP0
+Processor: Intel64 Family 6 Model 142 Stepping 10, GenuineIntel
+Full CPU Name: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+Full CPU Name: 1.6000 GHz
+Full CPU Name: 1.6000 GHz
+Total RAM: 11.90 GB
+
+instance of Win32_OperatingSystem
+{
+        BootDevice = "\\Device\\HarddiskVolume1";
+        BuildNumber = "19043";
+        BuildType = "Multiprocessor Free";
+        Caption = "Microsoft Windows 10 Home Single Language";
+        CodeSet = "1252";
+        CountryCode = "1";
+        CreationClassName = "Win32_OperatingSystem";
+        CSCreationClassName = "Win32_ComputerSystem";
+        CSName = "JAYAMBE";
+        CurrentTimeZone = 330;
+        DataExecutionPrevention_32BitApplications = TRUE;
+        DataExecutionPrevention_Available = TRUE;
+        DataExecutionPrevention_Drivers = TRUE;
+        DataExecutionPrevention_SupportPolicy = 2;
+        Debug = FALSE;
+        Description = "";
+        Distributed = FALSE;
+        EncryptionLevel = 256;
+        ForegroundApplicationBoost = 2;
+        FreePhysicalMemory = "3847696";
+        FreeSpaceInPagingFiles = "3780640";
+        FreeVirtualMemory = "3710712";
+        InstallDate = "20201207054635.000000+330";
+        LastBootUpTime = "20220619175439.534937+330";
+        LocalDateTime = "20220709151253.864000+330";
+        Locale = "0409";
+        Manufacturer = "Microsoft Corporation";
+        MaxNumberOfProcesses = 4294967297;
+        MaxProcessMemorySize = "137438953347";
+        MUILanguages = {"en-US"};
+        Name = "Microsoft Windows 10 Home Single Language|C:\\WINDOWS|\\Device\\Harddisk0\\Partition3";
+        NumberOfProcesses = 250;
+        NumberOfUsers = 1;
+        OperatingSystemSKU = 100;
+        OSArchitecture = "64-bit";
+        OSLanguage = 1033;
+        OSProductSuite = 786;
+        OSType = 18;
+        PortableOperatingSystem = FALSE;
+        Primary = TRUE;
+        ProductType = 1;
+        RegisteredUser = "smitrpatel19@gmail.com";
+        SerialNumber = "00327-35823-27277-AAOEM";
+        ServicePackMajorVersion = 0;
+        ServicePackMinorVersion = 0;
+        SizeStoredInPagingFiles = "4076225";
+        Status = "OK";
+        SuiteMask = 786;
+        SystemDevice = "\\Device\\HarddiskVolume3";
+        SystemDirectory = "C:\\WINDOWS\\system32";
+        SystemDrive = "C:";
+        TotalVirtualMemorySize = "16553800";
+        TotalVisibleMemorySize = "12477576";
+        Version = "10.0.19043";
+        WindowsDirectory = "C:\\WINDOWS";
+};
+
+
+instance of Win32_Processor
+{
+        AddressWidth = 64;
+        Architecture = 9;
+        AssetTag = " ";
+        Availability = 3;
+        Caption = "Intel64 Family 6 Model 142 Stepping 10";
+        Characteristics = 252;
+        CpuStatus = 1;
+        CreationClassName = "Win32_Processor";
+        CurrentClockSpeed = 1600;
+        CurrentVoltage = 7;
+        DataWidth = 64;
+        Description = "Intel64 Family 6 Model 142 Stepping 10";
+        DeviceID = "CPU0";
+        ExtClock = 100;
+        Family = 205;
+        L2CacheSize = 1024;
+        L3CacheSize = 6144;
+        L3CacheSpeed = 0;
+        Level = 6;
+        LoadPercentage = 3;
+        Manufacturer = "GenuineIntel";
+        MaxClockSpeed = 1800;
+        Name = "Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz";
+        NumberOfCores = 4;
+        NumberOfEnabledCore = 4;
+        NumberOfLogicalProcessors = 8;
+        PartNumber = " ";
+        PowerManagementSupported = FALSE;
+        ProcessorId = "BFEBFBFF000807EA";
+        ProcessorType = 3;
+        Role = "CPU";
+        SecondLevelAddressTranslationExtensions = TRUE;
+        SerialNumber = " ";
+        SocketDesignation = "U3E1";
+        Status = "OK";
+        StatusInfo = 3;
+        SystemCreationClassName = "Win32_ComputerSystem";
+        SystemName = "JAYAMBE";
+        ThreadCount = 8;
+        UpgradeMethod = 1;
+        Version = "";
+        VirtualizationFirmwareEnabled = TRUE;
+        VMMonitorModeExtensions = TRUE;
+};
+
+
+instance of Win32_VideoController
+{
+        AdapterCompatibility = "Advanced Micro Devices, Inc.";
+        AdapterDACType = "Internal DAC(400MHz)";
+        AdapterRAM = 2147483647;
+        Availability = 8;
+        Caption = "Radeon (TM) 530";
+        ConfigManagerErrorCode = 0;
+        ConfigManagerUserConfig = FALSE;
+        CreationClassName = "Win32_VideoController";
+        Description = "Radeon (TM) 530";
+        DeviceID = "VideoController1";
+        DriverDate = "20260902000000.000000-000";
+        DriverVersion = "27.20.20904.4000";
+        InfFilename = "oem43.inf";
+        InfSection = "ati2mtag_Topaz";
+        InstalledDisplayDrivers = "C:\\u0373236.inf_amd64_999a7a5a417b3c9a\\B371260\\aticfx64.dll,C:\\u0373236.inf_amd64_999a7a5a417b3c9a\\B371260\\aticfx64.dll,C:\\u0373236.inf_amd64_999a7a5a417b3c9a\\B371260\\aticfx64.dll,C:\\u0373236.inf_amd64_999a7a5a417b3c9a\\B371260\\amdxc64.dll"; 
+        Monochrome = FALSE;
+        Name = "Radeon (TM) 530";
+        PNPDeviceID = "PCI\\VEN_1002&DEV_6900&SUBSYS_08101028&REV_C1\\4&3A28126F&0&00E0";       
+        Status = "OK";
+        SystemCreationClassName = "Win32_ComputerSystem";
+        SystemName = "JAYAMBE";
+        VideoArchitecture = 5;
+        VideoMemoryType = 2;
+        VideoProcessor = "AMD Radeon Graphics Processor (0x6900)";
+};
+
+CPU Name:  Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+GPU Name:  Radeon (TM) 530
+ALL IS WELL
